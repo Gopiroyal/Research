@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+#results {
+    display: none;
+    margin-top: 20px;
+}
+
+#symptomLinks {
+    list-style-type: none;
+}
+
+#symptomLinks li {
+    margin: 5px 0;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Symptoms Checker</h1>
+    <form id="healthForm">
+        <div class="question">
+            <label for="pain">Do you have pain?</label>
+            <input type="radio" name="pain" value="Yes"> Yes
+            <input type="radio" name="pain" value="No"> No
+        </div>
+        <div class="question">
+            <label for="vomiting">Do you have vomiting?</label>
+            <input type="radio" name="vomiting" value="Yes"> Yes
+            <input type="radio" name="vomiting" value="No"> No
+        </div>
+        <div class="question">
+            <label for="nausea">Do you have nausea?</label>
+            <input type="radio" name="nausea" value="Yes"> Yes
+            <input type="radio" name="nausea" value="No"> No
+        </div>
+        <div class="question">
+            <label for="constipation">Do you feel constipation?</label>
+            <input type="radio" name="constipation" value="Yes"> Yes
+            <input type="radio" name="constipation" value="No"> No
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+    <div id="results">
+        <h2>Links for Symptoms:</h2>
+        <ul id="symptomLinks"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
