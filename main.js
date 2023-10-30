@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "vomiting",
             "nausea",
             "constipation"
+             "breathlessness"
         ];
 
         questions.forEach(function (question) {
@@ -38,7 +39,8 @@ document.addEventListener("DOMContentLoaded", function () {
             pain: "https://www.cancer.org/cancer/managing-cancer/side-effects/pain/pain.html",
             vomiting: "https://www.healthlinkbc.ca/illnesses-conditions/cancer/cancer-controlling-cancer-pain",
             nausea: "https://www.healthlinkbc.ca/illnesses-conditions/cancer/cancer-controlling-cancer-pain",
-            constipation: "http://www.bccancer.bc.ca/health-info/coping-with-cancer/managing-symptoms-side-effects/constipation-caused-by-your-medications"
+            constipation: "http://www.bccancer.bc.ca/health-info/coping-with-cancer/managing-symptoms-side-effects/constipation-caused-by-your-medications",
+             breathlessness: "https://www.youtube.com/watch?v=nxw7rAmQeAI&t=102s",
         };
         return links[symptom];
     }
