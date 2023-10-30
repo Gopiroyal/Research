@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
             vomiting: "https://www.healthlinkbc.ca/illnesses-conditions/cancer/cancer-controlling-cancer-pain",
             nausea: "https://www.healthlinkbc.ca/illnesses-conditions/cancer/cancer-controlling-cancer-pain",
             constipation: "http://www.bccancer.bc.ca/health-info/coping-with-cancer/managing-symptoms-side-effects/constipation-caused-by-your-medications",
-             breathlessness: "https://www.youtube.com/watch?v=nxw7rAmQeAI&t=102s",
+             breathlessness: "https://www.youtube.com/watch?v=nxw7rAmQeAI&t=102s"
         };
         return links[symptom];
     }
