@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "pain",
             "vomiting",
             "nausea",
-            "constipation"
+            "constipation",
              "breathlessness"
         ];
 
