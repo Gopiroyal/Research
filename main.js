@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "vomiting",
             "nausea",
             "constipation",
-             "Breathlessness"
+             "breathlessness"
         ];
 
         questions.forEach(function (question) {
