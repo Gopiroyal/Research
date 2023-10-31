@@ -17,7 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
             "bodyimage",
             "diarrhea",
             "drymouth",
-            "fatigue"
+            "fatigue",
+            "hairloss"
         ];
 
         questions.forEach(function (question) {
@@ -50,7 +51,8 @@ document.addEventListener("DOMContentLoaded", function () {
             bodyimage:"http://www.bccancer.bc.ca/health-info/coping-with-cancer/managing-symptoms-side-effects/balance-coordination",
             diarrhea:"https://www.cancer.gov/about-cancer/treatment/side-effects/diarrhea",
             drymouth:"https://www.youtube.com/watch?v=PuLBtVTGo9I&t=82s",
-            fatigue:"https://www.breastcancer.org/treatment-side-effects/fatigue"
+            fatigue:"https://www.breastcancer.org/treatment-side-effects/fatigue",
+            hairloss/changeinappearance:"https://www.breastcancer.org/treatment-side-effects/fatigue"
         };
         return links[symptom];
     }
