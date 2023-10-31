@@ -15,7 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
             "breathlessness",
             "balance",
             "bodyimage",
-            "diarrhea"
+            "diarrhea",
+            "drymouth"
         ];
 
         questions.forEach(function (question) {
@@ -46,7 +47,8 @@ document.addEventListener("DOMContentLoaded", function () {
              breathlessness: "https://www.youtube.com/watch?v=nxw7rAmQeAI&t=102s",
             balance: "http://www.bccancer.bc.ca/health-info/coping-with-cancer/managing-symptoms-side-effects/balance-coordination",
             bodyimage:"http://www.bccancer.bc.ca/health-info/coping-with-cancer/managing-symptoms-side-effects/balance-coordination",
-            diarrhea:"https://www.cancer.gov/about-cancer/treatment/side-effects/diarrhea"
+            diarrhea:"https://www.cancer.gov/about-cancer/treatment/side-effects/diarrhea",
+            drymouth:"https://www.youtube.com/watch?v=PuLBtVTGo9I&t=82s"
         };
         return links[symptom];
     }
