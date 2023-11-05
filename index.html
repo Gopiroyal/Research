@@ -1,68 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="main.js"></script>
+    <title>Navigation Application</title>
 </head>
+
 <body>
     <h1>Navigation Application</h1>
     <form id="healthForm">
-        <div class="question">
-            <label for="pain">Do you have pain?</label>
-            <input type="radio" name="pain" value="Yes"> Yes
-            <input type="radio" name="pain" value="No"> No
+        <div class="question" id="questionContainer"></div>
+        <div id="buttons">
+            <button type="button" id="prevBtn" disabled>Previous</button>
+            <button type="button" id="nextBtn">Next</button>
+            <button type="submit" id="submitBtn" style="display:none;">Submit</button>
         </div>
-        <div class="question">
-            <label for="vomiting">Do you have vomiting?</label>
-            <input type="radio" name="vomiting" value="Yes"> Yes
-            <input type="radio" name="vomiting" value="No"> No
-        </div>
-        <div class="question">
-            <label for="nausea">Do you have nausea?</label>
-            <input type="radio" name="nausea" value="Yes"> Yes
-            <input type="radio" name="nausea" value="No"> No
-        </div>
-        <div class="question">
-            <label for="constipation">Do you feel constipation?</label>
-            <input type="radio" name="constipation" value="Yes"> Yes
-            <input type="radio" name="constipation" value="No"> No
-        </div>
-        <div class="question">
-            <label for="Breathlessness">Do you feel Breathlessness/Shortness of breath?</label>
-            <input type="radio" name="breathlessness" value="Yes"> Yes
-            <input type="radio" name="breathlessness" value="No"> No
-        </div>
-        <div class="question">
-            <label for="balance">Do you feel lack of balance & co-ordination?</label>
-            <input type="radio" name="balance" value="Yes"> Yes
-            <input type="radio" name="balance" value="No"> No
-        </div>
-        <div class="question">
-            <label for="bodyimage">Do you experience changes in body appearance?</label>
-            <input type="radio" name="bodyimage" value="Yes"> Yes
-            <input type="radio" name="bodyimage" value="No"> No
-        </div>
-        <div class="question">
-            <label for="diarrhea">Do you have diarrhea?</label>
-            <input type="radio" name="bodyimage" value="Yes"> Yes
-            <input type="radio" name="bodyimage" value="No"> No
-        </div>
-        <div class="question">
-            <label for="drymouth">Do you have Dry mouth/Mouth pain?</label>
-            <input type="radio" name="drymouth" value="Yes"> Yes
-            <input type="radio" name="drymouth" value="No"> No
-        </div>
-        <div class="question">
-            <label for="fatigue">Do you fell fatigue?</label>
-            <input type="radio" name="fatigue" value="Yes"> Yes
-            <input type="radio" name="fatigue" value="No"> No
-        </div>
-        <div class="question">
-            <label for="hairloss">Are you experiencing hair-loss/change in appearence?</label>
-            <input type="radio" name="hairloss" value="Yes"> Yes
-            <input type="radio" name="hairloss" value="No"> No
-        </div>
-        <input type="submit" value="Submit">
     </form>
     <div id="results">
         <h2>Links for Symptoms:</h2>
@@ -70,4 +24,5 @@
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
