@@ -4,26 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-     <script src="script.js"></script>
-    <title>Navigation Application</title>
+    <title>Symptom Checker</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>Navigation Application</h1>
-    <form id="healthForm">
-        <div class="question" id="questionContainer"></div>
-        <div id="buttons">
-            <button type="button" id="prevBtn" disabled>Previous</button>
-            <button type="button" id="nextBtn">Next</button>
-            <button type="submit" id="submitBtn" style="display:none;">Submit</button>
+    <div class="container">
+        <h1>Symptom Checker</h1>
+        <div class="question-container" id="questionContainer">
         </div>
-    </form>
-    <div id="results">
-        <h2>Links for Symptoms:</h2>
-        <ul id="symptomLinks"></ul>
+        <div class="button-container">
+            <button class="prev-button" id="prevBtn">Previous</button>
+            <button class="next-button" id="nextBtn">Next</button>
+            <button class="submit-button" id="submitBtn">Submit</button>
+        </div>
+        <div id="results" class="results-container">
+            <h2>Links for Symptoms:</h2>
+            <ul id="symptomLinks"></ul>
+        </div>
     </div>
-   
+    <script src="script.js"></script>
 </body>
 
 </html>
